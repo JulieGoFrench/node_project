@@ -1,0 +1,10 @@
+header {
+ 
+    background-image: url('/src/assets/header.jpg');
+  }
+  
+  p{
+    size : 2em; 
+    color :#ce008d;
+    font-weight: bold;
+  }

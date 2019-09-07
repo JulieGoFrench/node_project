@@ -1,0 +1,9 @@
+<div [hidden]="service.isLogged()" class="login-form">
+  <label>Nom utilisateur: </label><br/>
+  <input class="login-input" type="text" [(ngModel)]="username" (keyup.enter)="send()"/>
+  <p></p>
+<label>Mot de passe: </label><br/>
+<input name="passWord" 
+
+type ="text" [(ngModel)]="passWord" (keyup.enter)="send()"/>
+</div>

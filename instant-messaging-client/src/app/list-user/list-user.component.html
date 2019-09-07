@@ -1,0 +1,10 @@
+
+<div *ngIf="service.isLogged()">
+    <div class="list">Liste des gens participant à la conversation :</div>
+    <ul>
+      
+              <div class="list" *ngFor="let userl of service.getUserls()" >{{userl}}</div>
+      
+    </ul>
+
+</div>

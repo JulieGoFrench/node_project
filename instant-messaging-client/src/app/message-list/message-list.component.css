@@ -1,0 +1,15 @@
+.message-list {
+    position:fixed;
+    display: flex; 
+    text-align: justify;
+    text-align: center;
+    flex-direction: column; /* direction d'affichage verticale */
+    justify-content: center; /* alignement vertical */
+    top:0px;
+    bottom: 50px;
+    left:300px;
+    right:00px;
+    padding:5px;
+    overflow-y: scroll;
+    color : black; 
+}

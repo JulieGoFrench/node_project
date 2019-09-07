@@ -1,0 +1,33 @@
+  
+  <div *ngIf="service.isLogged()">
+
+
+  
+    <nav class="navbar navbar-default">
+
+      <div class="container-fluid">
+  
+        <div class="navbar-collapse"> 
+          <div class ="list"></div>
+     <ul>
+            <div  class ="list" routerLinkActive="link"><a routerLink=''> Home</a></div>
+           <p class ="list" >Liste des Salons : </p>
+              <div class ="list" routerLinkActive="link"><a routerLink='talk1'>chatroom</a></div >
+              <div  class ="list"  routerLinkActive="link"><a routerLink='velos'>velos</a></div >
+            <div  class ="list"  routerLinkActive="link"><a routerLink='chiens'>chiens</a></div >
+                <router-outlet></router-outlet> 
+                <br/>
+                <br/>
+          
+              
+      </ul>
+    
+        </div>
+    
+      </div>
+    
+    </nav>
+    
+  </div>
+  
+  
